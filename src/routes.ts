@@ -9,7 +9,7 @@ export const getHello = (req: Request, res: Response) => {
   res.json({ greeting: `Hello, ${name}` }); 
 };
 
-// المعالج للمسار /info
+
 export const getInfo = (req: Request, res: Response) => {
   const clientAddress = req.ip; 
   const hostName = os.hostname(); 
